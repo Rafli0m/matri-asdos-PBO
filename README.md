@@ -14,7 +14,7 @@ Repositori ini berisi kumpulan materi, modul panduan, latihan, tugas, serta stud
     - [3. `pertemuan 3` — Scanner & Percabangan Dasar (TK)](#3-pertemuan-3--scanner--percabangan-dasar-tk)
     - [4. `Pertemuan 3 d3` — Percabangan Lanjutan & Perulangan (D3)](#4-pertemuan-3-d3--percabangan-lanjutan--perulangan-d3)
     - [5. `pert 4 d3` — Studi Kasus Diskon Kasir & Fondasi PBO (D3)](#5-pert-4-d3--studi-kasus-diskon-kasir--fondasi-pbo-d3)
-    - [6. `pertemuan 4 tk` — Soal Kuis Percabangan & Logika Kasir (TK)](#6-pertemuan-4-tk--soal-kuis-percabangan--logika-kasir-tk)
+    - [6. `pertemuan 4 tk` — Studi Kasus Diskon Kasir & Fondasi PBO (TK)](#6-pertemuan-4-tk--studi-kasus-diskon-kasir--fondasi-pbo-tk)
     - [7. `pertemuan 5 d3` — Pemrograman Berorientasi Objek / OOP (D3)](#7-pertemuan-5-d3--pemrograman-berorientasi-objek--oop-d3)
     - [8. `Pertemuan 5 tk` — Perulangan & Pengelolaan Data CRUD (TK)](#8-pertemuan-5-tk--perulangan--pengelolaan-data-crud-tk)
   - [🚀 Panduan Menjalankan Program](#-panduan-menjalankan-program)
@@ -73,9 +73,13 @@ Fokus: Evaluasi logika percabangan kasir dan pengantar konsep Objek dalam Java.
 
 ---
 
-### 6. `pertemuan 4 tk` — Soal Kuis Percabangan & Logika Kasir (TK)
-Fokus: Lembar soal dan studi kasus evaluasi logika percabangan untuk kelas Teknik Komputer.
+### 6. `pertemuan 4 tk` — Studi Kasus Diskon Kasir & Fondasi PBO (TK)
+Fokus: Evaluasi logika percabangan kasir (operator logika `&&` vs nested if) dan pengantar konsep OOP untuk kelas Teknik Komputer.
 * **`kuis pbo Jumat.pdf`**: Lembar instruksi soal kuis praktikum PBO (studi kasus sistem kalkulasi diskon member kasir).
+* **`Kuis.java`**: Solusi kuis penentuan diskon kasir dengan kondisi gabungan boolean (*compound conditions* `&&`).
+* **`SistemDiskonKasir.java`**: Solusi alternatif diskon kasir menggunakan konsep percabangan bersarang (*nested if*).
+* **`Tess.java`**: Pengujian alur percabangan diskon kasir dengan blok kalkulasi dan struk langsung per kondisi.
+* **`Main.java`**: Fondasi Pemrograman Berorientasi Objek — pengenalan class `Mobil`, atribut, konstruktor, keyword `this`, dan method `tampilkanInfo()`.
 
 ---
 
