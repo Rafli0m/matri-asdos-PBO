@@ -17,6 +17,7 @@ Repositori ini berisi kumpulan materi, modul panduan, latihan, tugas, serta stud
     - [6. `pertemuan 4 tk` — Studi Kasus Diskon Kasir & Fondasi PBO (TK)](#6-pertemuan-4-tk--studi-kasus-diskon-kasir--fondasi-pbo-tk)
     - [7. `pertemuan 5 d3` — Pemrograman Berorientasi Objek / OOP (D3)](#7-pertemuan-5-d3--pemrograman-berorientasi-objek--oop-d3)
     - [8. `Pertemuan 5 tk` — Perulangan & Pengelolaan Data CRUD (TK)](#8-pertemuan-5-tk--perulangan--pengelolaan-data-crud-tk)
+    - [9. `pertmuan 6 d3 si` — Enkapsulasi, Access Modifier, Getter & Setter (D3 SI)](#9-pertmuan-6-d3-si--enkapsulasi-access-modifier-getter--setter-d3-si)
   - [🚀 Panduan Menjalankan Program](#-panduan-menjalankan-program)
   - [💡 Tips Praktikum & Prinsip Clean Code](#-tips-praktikum--prinsip-clean-code)
 
@@ -75,7 +76,7 @@ Fokus: Evaluasi logika percabangan kasir dan pengantar konsep Objek dalam Java.
 
 ### 6. `pertemuan 4 tk` — Studi Kasus Diskon Kasir & Fondasi PBO (TK)
 Fokus: Evaluasi logika percabangan kasir (operator logika `&&` vs nested if) dan pengantar konsep OOP untuk kelas Teknik Komputer.
-* **`kuis pbo Jumat.pdf`**: Lembar instruksi soal kuis praktikum PBO (studi kasus sistem kalkulasi diskon member kasir).
+* **`kuis pbo Jumat.pdf` & `kuis susulan TK.pdf`**: Lembar instruksi soal kuis reguler dan kuis susulan praktikum PBO (studi kasus sistem kalkulasi diskon member kasir).
 * **`Kuis.java`**: Solusi kuis penentuan diskon kasir dengan kondisi gabungan boolean (*compound conditions* `&&`).
 * **`SistemDiskonKasir.java`**: Solusi alternatif diskon kasir menggunakan konsep percabangan bersarang (*nested if*).
 * **`Tess.java`**: Pengujian alur percabangan diskon kasir dengan blok kalkulasi dan struk langsung per kondisi.
@@ -106,6 +107,17 @@ Fokus: Struktur kontrol perulangan tingkat lanjut, navigasi menu terus-menerus, 
   - Implementasi konsep **Array Paralel** (nama, tanggal lahir, pendidikan, jenis kelamin).
   - Algoritma **Array Shifting** (pergeseran elemen untuk operasi penghapusan data).
   - Penanganan pembersihan buffer keyboard `scanner.nextLine()` setelah input numerik.
+* **`TUGAS LAPORAN PRAKTIKUM PERT 5.pdf`**: Lembar instruksi pengerjaan tugas laporan praktikum pertemuan 5.
+
+---
+
+### 9. `pertmuan 6 d3 si` — Enkapsulasi, Access Modifier, Getter & Setter (D3 SI)
+Fokus: Penerapan konsep Enkapsulasi (*Encapsulation*), pembatasan hak akses (*Access Modifier* `public` vs `private`), serta penggunaan method *Getter* dan *Setter*.
+* **`Latihan.java`**: Perbandingan akses langsung atribut `public` vs akses terproteksi atribut `private` pada class `Data` menggunakan method `getAngkaprivate()` dan `setAngkaprivate()`.
+* **`Main.java`**: Studi kasus enkapsulasi dua atribut bilangan pada class `Angka` beserta operasi penjumlahan menggunakan method Getter dan Setter.
+* **`Contoh.java`**: Penerapan enkapsulasi pada bangun datar `persegi_panjang` (atribut `panjang` dan `lebar` bertipe `private double`) untuk menghitung luas persegi panjang.
+* **`Luas_Lingkaran.java`**: Penerapan enkapsulasi pada bangun datar lingkaran (`phi` dan jari-jari `r` bertipe `private double`) untuk menghitung luas lingkaran.
+* **`Challenge.pdf`**: Lembar soal tantangan praktikum pertemuan 6.
 
 ---
 
