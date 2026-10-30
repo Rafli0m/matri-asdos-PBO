@@ -18,6 +18,7 @@ Repositori ini berisi kumpulan materi, modul panduan, latihan, tugas, serta stud
     - [7. `pertemuan 5 d3` — Pemrograman Berorientasi Objek / OOP (D3)](#7-pertemuan-5-d3--pemrograman-berorientasi-objek--oop-d3)
     - [8. `Pertemuan 5 tk` — Perulangan & Pengelolaan Data CRUD (TK)](#8-pertemuan-5-tk--perulangan--pengelolaan-data-crud-tk)
     - [9. `pertmuan 6 d3 si` — Enkapsulasi, Access Modifier, Getter & Setter (D3 SI)](#9-pertmuan-6-d3-si--enkapsulasi-access-modifier-getter--setter-d3-si)
+    - [10. `Pertemuan 6tk` — Operasi File I/O & Array of Objects Karyawan (TK)](#10-pertemuan-6tk--operasi-file-io--array-of-objects-karyawan-tk)
   - [🚀 Panduan Menjalankan Program](#-panduan-menjalankan-program)
   - [💡 Tips Praktikum & Prinsip Clean Code](#-tips-praktikum--prinsip-clean-code)
 
@@ -118,6 +119,15 @@ Fokus: Penerapan konsep Enkapsulasi (*Encapsulation*), pembatasan hak akses (*Ac
 * **`Contoh.java`**: Penerapan enkapsulasi pada bangun datar `persegi_panjang` (atribut `panjang` dan `lebar` bertipe `private double`) untuk menghitung luas persegi panjang.
 * **`Luas_Lingkaran.java`**: Penerapan enkapsulasi pada bangun datar lingkaran (`phi` dan jari-jari `r` bertipe `private double`) untuk menghitung luas lingkaran.
 * **`Challenge.pdf`**: Lembar soal tantangan praktikum pertemuan 6.
+
+---
+
+### 10. `Pertemuan 6tk` — Operasi File I/O & Array of Objects Karyawan (TK)
+Fokus: Penanganan berkas (*File Input/Output Stream*), blok penanganan eksepsi (`try-catch`), serta penerapan *Array of Objects* dan enkapsulasi method pada studi kasus penggajian karyawan.
+* **`BacaFile.java`**: Membaca isi file teks karakter demi karakter menggunakan `FileInputStream` serta penanganan eksepsi `FileNotFoundException` dan `IOException`.
+* **`TulisFile.java`**: Menulis data string ke dalam file eksternal karakter demi karakter menggunakan `FileOutputStream`.
+* **`data_mata_kuliah.txt`**: Berkas teks sampel berisi daftar mata kuliah dan bobot SKS yang digunakan sebagai sumber pembacaan pada `BacaFile.java`.
+* **`Main.java`**: Studi kasus OOP pengelolaan data `Karyawan` menggunakan *Array of Objects*, konstruktor berparameter, method `private hitungMasaKerja()`, serta kalkulasi `hitungGaji()` dan `hitungTunjangan()` berdasarkan status kerja, pendidikan, dan masa kerja.
 
 ---
 
