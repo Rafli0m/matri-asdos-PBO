@@ -23,6 +23,7 @@ class Angka{
 public class Main { // Mendeklarasikan class utama bernama Main (sesuai nama file Main.java)
     public static void main(String[] args) { // Method main: titik awal eksekusi program Java
         Angka angka = new Angka(); // Instansiasi objek: membuat objek baru bernama 'angka' dari class Angka (memanggil constructor)
+        System.out.println("Nilai angka1: " + angka.getAngka1()); // Menampilkan nilai atribut angka1 milik objek 'angka' ke konsol
         angka.setAngka1(10); // Mengatur nilai atribut angka1 milik objek 'angka' menjadi 10
         angka.setAngka2(20); // Mengatur nilai atribut angka2 milik objek 'angka' menjadi 20
         System.out.println("Nilai angka1: " + angka.getAngka1()); // Menampilkan nilai atribut angka1 milik objek 'angka' ke konsol
