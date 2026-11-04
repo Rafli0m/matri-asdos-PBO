@@ -19,6 +19,7 @@ Repositori ini berisi kumpulan materi, modul panduan, latihan, tugas, serta stud
     - [8. `Pertemuan 5 tk` — Perulangan & Pengelolaan Data CRUD (TK)](#8-pertemuan-5-tk--perulangan--pengelolaan-data-crud-tk)
     - [9. `pertmuan 6 d3 si` — Enkapsulasi, Access Modifier, Getter & Setter (D3 SI)](#9-pertmuan-6-d3-si--enkapsulasi-access-modifier-getter--setter-d3-si)
     - [10. `Pertemuan 6tk` — Operasi File I/O & Array of Objects Karyawan (TK)](#10-pertemuan-6tk--operasi-file-io--array-of-objects-karyawan-tk)
+    - [11. `pertemuan 7 d3` — Pewarisan (Inheritance) & Polimorfisme (D3)](#11-pertemuan-7-d3--pewarisan-inheritance--polimorfisme-d3)
   - [🚀 Panduan Menjalankan Program](#-panduan-menjalankan-program)
   - [💡 Tips Praktikum & Prinsip Clean Code](#-tips-praktikum--prinsip-clean-code)
 
@@ -127,7 +128,20 @@ Fokus: Penanganan berkas (*File Input/Output Stream*), blok penanganan eksepsi (
 * **`BacaFile.java`**: Membaca isi file teks karakter demi karakter menggunakan `FileInputStream` serta penanganan eksepsi `FileNotFoundException` dan `IOException`.
 * **`TulisFile.java`**: Menulis data string ke dalam file eksternal karakter demi karakter menggunakan `FileOutputStream`.
 * **`data_mata_kuliah.txt`**: Berkas teks sampel berisi daftar mata kuliah dan bobot SKS yang digunakan sebagai sumber pembacaan pada `BacaFile.java`.
-* **`Main.java`**: Studi kasus OOP pengelolaan data `Karyawan` menggunakan *Array of Objects*, konstruktor berparameter, method `private hitungMasaKerja()`, serta kalkulasi `hitungGaji()` dan `hitungTunjangan()` berdasarkan status kerja, pendidikan, dan masa kerja.
+* **`Main.java` & `Latihan.java`**: Studi kasus OOP pengelolaan data `Karyawan` menggunakan *Array of Objects*, konstruktor berparameter, method `private hitungMasaKerja()`, serta kalkulasi `hitungGaji()` dan `hitungTunjangan()` berdasarkan status kerja, pendidikan, dan masa kerja.
+
+---
+
+### 11. `pertemuan 7 d3` — Pewarisan (Inheritance) & Polimorfisme (D3)
+Fokus: Konsep pewarisan sifat antar-class (*Superclass* ke *Subclass*) menggunakan kata kunci `extends` dan `super`, serta konsep Polimorfisme (*Method Overriding* & *Method Overloading*).
+* **`Modul_Praktikum_Pertemuan7.md`**: Modul panduan praktikum pewarisan (tabel analogi orang tua & anak, aturan dasar `extends`, penggunaan constructor `super(...)`, dan soal latihan mandiri).
+* **`Main.java`**: Contoh dasar pewarisan pada class induk `Kendaraan` yang menurunkan atribut dan method ke class anak `Mobil` dan `Motor`.
+* **`ContohSuper.java`**: Implementasi pewarisan yang dikombinasikan dengan Constructor menggunakan kata kunci `super(...)` pada studi kasus `Manusia` $\rightarrow$ `Mahasiswa`.
+* **`Latihan.java`**: Studi kasus dan kunci jawaban latihan mandiri perhitungan total gaji pegawai (`Pegawai` $\rightarrow$ `Manager` & `Kasir`).
+* **Subfolder `polimorfisme/`**:
+  - **`Modul_Polimorfisme.md`**: Modul panduan konsep "Banyak Bentuk" beserta tabel perbandingan *Method Overriding* vs *Method Overloading*.
+  - **`Main.java`**: Implementasi Polimorfisme Dinamis (*Method Overriding* dengan anotasi `@Override`) pada studi kasus suara hewan (`Hewan` $\rightarrow$ `Kucing`, `Anjing`, `Sapi`).
+  - **`ContohOverloading.java`**: Implementasi Polimorfisme Statis (*Method Overloading*) pada class `Kalkulator` dengan variasi jumlah dan tipe parameter pada method `tambah()`.
 
 ---
 

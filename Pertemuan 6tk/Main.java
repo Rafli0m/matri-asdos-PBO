@@ -13,7 +13,7 @@ class Karyawan {
         this.thnMasuk = thnMasuk;
     }
     private int hitungMasaKerja(int thnMasuk) {
-        return 2026- thnMasuk;
+        return 2026 - thnMasuk;
     }
     public double hitungGaji(String status) {
         double gajiPokok;
