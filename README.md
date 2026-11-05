@@ -138,9 +138,14 @@ Fokus: Konsep pewarisan sifat antar-class (*Superclass* ke *Subclass*) menggunak
 * **`Main.java`**: Contoh dasar pewarisan pada class induk `Kendaraan` yang menurunkan atribut dan method ke class anak `Mobil` dan `Motor`.
 * **`ContohSuper.java`**: Implementasi pewarisan yang dikombinasikan dengan Constructor menggunakan kata kunci `super(...)` pada studi kasus `Manusia` $\rightarrow$ `Mahasiswa`.
 * **`Latihan.java`**: Studi kasus dan kunci jawaban latihan mandiri perhitungan total gaji pegawai (`Pegawai` $\rightarrow$ `Manager` & `Kasir`).
+* **`Challenge.java` & `Challenge.pdf`**: Soal challenge dan kunci jawaban pewarisan dasar untuk menghitung total bayar produk diskon (`Produk` $\rightarrow$ `ProdukDiskon`).
+* **`LatihanGame.java` & `Challenge_Game.pdf`**: Studi kasus dan soal latihan pewarisan bertema karakter game (`KarakterGame` $\rightarrow$ `Warrior` & `Mage` dengan atribut `hp`, `attackPoint`, `defense`, dan `mana`).
+* **`LatihanKos.java` & `Challenge_Kos.pdf`**: Studi kasus dan soal latihan pewarisan perhitungan tagihan kamar kos mahasiswa (`KamarKos` $\rightarrow$ `KamarAC` & `KamarSubsidi`).
 * **Subfolder `polimorfisme/`**:
   - **`Modul_Polimorfisme.md`**: Modul panduan konsep "Banyak Bentuk" beserta tabel perbandingan *Method Overriding* vs *Method Overloading*.
   - **`Main.java`**: Implementasi Polimorfisme Dinamis (*Method Overriding* dengan anotasi `@Override`) pada studi kasus suara hewan (`Hewan` $\rightarrow$ `Kucing`, `Anjing`, `Sapi`).
+  - **`ContohPembayaran.java`**: Implementasi *Method Overriding* pada sistem metode pembayaran kasir (`Pembayaran` $\rightarrow$ `EWallet`, `TransferBank`, `Qris`).
+  - **`ContohBangunDatar.java`**: Implementasi *Method Overriding* untuk rumus perhitungan luas yang berbeda pada method `hitungLuas()` (`BangunDatar` $\rightarrow$ `Persegi`, `PersegiPanjang`, `Segitiga`).
   - **`ContohOverloading.java`**: Implementasi Polimorfisme Statis (*Method Overloading*) pada class `Kalkulator` dengan variasi jumlah dan tipe parameter pada method `tambah()`.
 
 ---

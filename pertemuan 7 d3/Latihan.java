@@ -2,7 +2,7 @@
  * ============================================================================
  * PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK (PBO)
  * PERTEMUAN 7 (D3): Latihan Mandiri - Sistem Gaji Pegawai (Inheritance)
- * File       : Latihan.java (Kunci Jawaban / Referensi Asdos)
+ * File       : Latihan.java (Kunci Jawaban
  * ============================================================================
  * SOAL LATIHAN MAHASISWA:
  * Buatlah program Java menggunakan konsep Pewarisan (Inheritance) untuk
